@@ -1,9 +1,9 @@
 { "format_version": 2,
   "header": {
-    "name": "Devamped v0.1 [ 6/26/2023-v0.1 ]",
+    "name": "Devamped v0.1-RC2 [ 6/29/2023-v0.1-RC2 ]",
     "description": "A Vanilla retexture from Arcdustry (Harlow)\nhttps://bento.me/arcdustry",
     "uuid": "9858fffd-f5ef-4bdd-949f-b87d73793382",
-    "version": [ 0, 1, 0 ],
+    "version": [ 0, 1, 2 ],
     "min_engine_version": [ 1, 20, 0 ]
   },
   "modules": [

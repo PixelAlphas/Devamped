@@ -1,3 +1,9 @@
-<--- Devamped v0.1 (June 26, 2023) --->
+<--- Devamped v0.1-RC2 (June 26, 2023) --->
+× Initial Release!
+> 162 Items | 66 Retextured GUI
+[+] Added all potions textures
+[+] Redraw some sprites and changed its color tone.
+
+<--- Devamped v0.1-RC1 (June 26, 2023) --->
 × Initial Release!
 > 162 Items | 66 Retextured GUI
