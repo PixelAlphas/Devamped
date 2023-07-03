@@ -1,6 +1,14 @@
-<--- Devamped v0.1-RC2 (June 26, 2023) --->
+<--- Devamped v0.1-RC3 (July 4, 2023) --->
 × Initial Release!
-> 162 Items | 66 Retextured GUI
+> 296 Items | 66 Retextured GUI | 4 Blocks ( torches )
+[+] Redraw the ingots
+[+] Changed iron and diamond color tones
+[+] Few minor sprite redraws
+[+] fish buckets and FISH
+
+<--- Devamped v0.1-RC2 (June 29, 2023) --->
+× Initial Release!
+> 248 Items | 66 Retextured GUI
 [+] Added all potions textures
 [+] Redraw some sprites and changed its color tone.
 
