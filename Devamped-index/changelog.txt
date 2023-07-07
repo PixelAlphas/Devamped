@@ -1,3 +1,10 @@
+<--- Devamped v0.1-RC4 (July 8, 2023) --->
+> 339 Items | 66 Retextured GUI | 4 Blocks ( torches )
+[+] Retuned some sprites
+[+] Added discs
+[+] Hotbar gets overhaul changes
+[+] Re-Added torches texture somehow i forgot
+
 <--- Devamped v0.1-RC3 (July 4, 2023) --->
 × Initial Release!
 > 296 Items | 66 Retextured GUI | 4 Blocks ( torches )
