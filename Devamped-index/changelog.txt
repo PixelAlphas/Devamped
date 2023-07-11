@@ -1,3 +1,13 @@
+<--- Devamped v0.1-alpha-05 (July 11, 2023) --->
+> 346 Items | 97 Retextured GUI | 5 Blocks ( torches/lever )
+[+] Ingots is now larger
+[+] Arrow is now more detailed
+[+] Books got little detailed
+[+] Emerald and few crystal things got detailed/redraw
+[+] Gold related things now properly have gold outline, i.e totem
+[+] Added retextured of Bedrock's touch controls
+[+] Added 'mouse' cursor for controller pointer
+
 <--- Devamped v0.1-RC4 (July 8, 2023) --->
 > 339 Items | 66 Retextured GUI | 4 Blocks ( torches )
 [+] Retuned some sprites
