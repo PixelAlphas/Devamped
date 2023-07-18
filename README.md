@@ -9,5 +9,4 @@ The pack will get updated daily/weekly
 * not finished.
 * texture may not be 100% right to vanilla counterpart and therefore will be subject to be changed
 * will in absolutely not available in marketplace
-* java aren't supported yet
 * suggestions and contribution are welcome.
