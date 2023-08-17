@@ -1,0 +1,183 @@
+{
+  "start_cap_image": { "alpha": 1 },
+  "heart_image": { "alpha": 1 },
+  "hotbar_slot_image": { "alpha": 1 },
+  "hotbar_slot_selected_image": { "layer": 5 },
+  "hotbar_panel": {
+    "controls": [
+      { "left_pudding": {
+          "type": "panel",
+          "size": [ 20, 22 ],
+          "bindings": [
+            { "binding_name": "#hotbar_elipses_right_visible",
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+          }]
+      }},
+      { "hotbar_elipses_panel_left@hud.hotbar_elipses_panel_left_content": {}},
+      { "hotbar_start_cap@hud.hotbar_start_cap": {}},
+      { "hotbar_grid@hud.hotbar_grid": {} },
+      { "hotbar_end_cap@hud.hotbar_end_cap": {}},
+      { "hotbar_elipses_panel_right@hud.hotbar_elipses_panel_right_content": {}},
+      { "right_pudding": {
+          "type": "panel",
+          "size": [ 20, 22 ],
+          "bindings": [
+            { "binding_name": "#hotbar_elipses_left_visible",
+              "binding_name_override": "#visible",
+              "binding_type": "global"
+          }]
+      }}
+  ]},
+  "hotbar_elipses_panel_left_content": {
+    "$hotbar_elipses_button_size": [ 20, 22 ],
+    "controls": [
+      { "button@hud.hotbar_elipses_button": {} }
+  ]},
+  "hotbar_elipses_panel_right_content": {
+    "$hotbar_elipses_button_size": [ 20, 22 ],
+    "controls": [
+      { "button@hud.hotbar_elipses_button": {} }
+  ]},
+  "borderless_button@common.button": {
+    "controls": [
+      { "elipses@elipses_image_rewrite": {}}
+  ]},
+  "elipses_image_rewrite": {
+    "type": "image",
+    "texture": "textures/ui/elipses",
+    "size": [ 16, 16 ],
+    "layer": 4
+  },
+  "exp_progress_bar_and_hotbar_pocket/resizing_xp_bar_with_hotbar/progress_text_label": { "offset": [ 0, 3 ]},
+  "exp_progress_bar_and_hotbar": {
+    "type": "panel",
+    "size": [ "100%c", 31 ],
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "offset": [ 0, -13 ],
+    "controls": [
+      { "experience_bar_and_label": {
+          "type": "panel",
+          "size": [ 182, 5 ],
+          "controls": [
+            { "experience_bar": {
+                "type": "panel",
+                "use_anchored_offset": true,
+                "controls": [
+                  { "empty_progress_bar@empty_progress_bar": {
+                      "size": [ "100%", 5 ],
+                      "layer": 1,
+                      "controls": [
+                        { "full_progress_bar@full_progress_bar": {
+                            "size": [ "100%", 5 ],
+                            "layer": 2
+                        }}
+                    ]}
+                }],
+                "bindings": [
+                  { "binding_name": "#show_survival_ui",
+                    "binding_name_override": "#visible"
+                }]
+            }},
+            { "progress_text_label@progress_text_label": {
+                "offset": [ 0, 3 ],
+                "layer": 7
+          }}]
+      }},
+      { "hotbar@hotbar_chooser": { "offset": [ 4, 15.5 ]}},
+      { "item_text_factory": {
+          "size": [ 100, 10 ],
+          "type": "factory",
+          "control_ids": {
+            "item_text": "@hud.item_name_text",
+            "jukebox_text": "@hud.jukebox_popup_text"
+      }}}
+  ]},
+  "progress_text_label": {
+    "shadow": false,
+    "color": [ 0.6156, 0.9019, 0.3058 ],
+    "controls": [
+      { "shadow01@progress_xp_text_label_template": {
+          "color": [ 0, 0.3254, 0.2705 ],
+          "offset": [ -1, 0 ],
+          "layer": -2
+      }},
+      { "shadow02@progress_xp_text_label_template": {
+          "color": [ 0, 0.3254, 0.2705 ],
+          "offset": [ 1, 0 ],
+          "layer": -2
+      }},
+      { "shadow03@progress_xp_text_label_template": {
+          "color": [ 0, 0.3254, 0.2705 ],
+          "offset": [ 0, -1 ],
+          "layer": -2
+      }},
+      { "shadow04@progress_xp_text_label_template": {
+          "color": [ 0, 0.3254, 0.2705 ],
+          "offset": [ 0, 1 ],
+          "layer": -2
+      }}
+  ]},
+  "progress_xp_text_label_template": {
+    "type": "label",
+    "text": "#level_number",
+    "color": [ 0.6156, 0.9019, 0.3058 ],
+    "bindings": [
+      { "binding_name": "#level_number",
+        "binding_type": "global"
+      },
+      { "binding_name": "#level_number_visible",
+        "binding_type": "global",
+        "binding_name_override": "#visible"
+  }]},
+  "gui_hotbar_grid_item": {
+    "type": "panel",
+    "layer": 1,
+    "size": [ 20, 22 ],
+    "anchor_to": "top_left",
+    "anchor_from": "top_left",
+    "$stack_count_required|default": true,
+    "$durability_bar_required|default": true,
+    "$storage_bar_required|default": true,
+    "controls": [
+      { "hotbar_slot_selected_image@hotbar_slot_selected_image": {} },
+      { "hotbar_renderer@hotbar_renderer": {} },
+      { "hotbar_parent": {
+          "type": "panel",
+          "size": [ 18, 18 ],
+          "controls": [
+            { "item_icon@hotbar_hud_item_icon": {
+                "layer": 8,
+                "size": [ 16, 16 ]
+            }},
+            { "item_count@common.stack_count_label": {
+                "layer": 9,
+                "$item_collection_name": "$hotbar_collection_name",
+                "$stack_count_collection_name": "$hotbar_collection_name",
+                "bindings": [
+                  { "binding_name": "#inventory_stack_count",
+                    "binding_type": "collection",
+                    "binding_collection_name": "$stack_count_collection_name"
+                  },
+                  { "binding_name": "#stack_count_visible",
+                    "binding_name_override": "#visible",
+                    "binding_type": "collection",
+                    "binding_collection_name": "$stack_count_collection_name"
+                }]
+            }},
+            { "hotbar_hint@edu_common.hotbar_hint": {} },
+            { "item_dura@item_durability": {
+                "layer": 10
+            }},
+            { "item_store@item_storage": {
+                "layer": 10
+            }},
+            { "container_item_lock_overlay@hud.container_item_lock_overlay": {
+                "layer": 10,
+                "size": [ 16, 16 ]
+            }}
+      ]}},
+      { "cooldown_renderer@cooldown_renderer": { "layer": 10 } },
+      { "hotbar_slot_button@gui_hotbar_slot_button_prototype": {} }
+]}}
