@@ -1,4 +1,55 @@
-<--- Devamped v0.2a05 ( v0.2-alpha-04 | July 8, 2023) --->
+<--- Devamped v0.3a01 ( v0.3-alpha-1 | Sep 30, 2023 ) --->
+> [BE] 603 Items | 232 Retextured GUI | 188 Blocks | 4 Entitys ( CHESTS ONLY )
+[+] Added Cobblestone
+[+] Added Stone and Ores
+[+] Added Firework Star (Final item finally!)
+[+] Added Crafting table toggle in inventory screen
+[+] Changed and tweaked Tools
+[+] Changed Pack icon
+[+] Tweaked crafting table
+[+] Tweaked Slot texture
+
+<--- Devamped v0.2a10 ( v0.2-alpha-10 | Sep 14, 2023 ) --->
+> [BE] 602 Items | 229 Retextured GUI | 180 Blocks | 4 Entitys ( CHESTS ONLY )
+[+] Changed grass textures.
+
+<--- Devamped v0.2a09 ( v0.2-alpha-09 | Sep 11, 2023 ) --->
+> [BE] 602 Items | 229 Retextured GUI | 180 Blocks | 4 Entitys ( CHESTS ONLY )
+[+] Changed 110+ textures
+[+] Added Trapdoors
+[+] Added couple of tables
+[+] Added Stripped Logs
+[+] Hotbar slots got retextured
+[+] Wheats/Carrots got retextured without outline
+[+] Beehive related things got retextured
+[+] Barrels got retextured
+[+] Woods colors tweak and changes
+
+<--- Devamped v0.2a08 ( v0.2-alpha-08 | Sep 4, 2023 ) --->
+> [BE] 602 Items | 229 Retextured GUI | 138 Blocks | 4 Entitys ( CHESTS ONLY )
+[+] Added Wheats
+[+] Added Logs
+[+] Added Farmlands
+[+] Crafting table has a new look
+[+] Planks now has little detailed look
+[+] Devamped got a new icon!
+
+<--- Devamped v0.2a07 ( v0.2-alpha-07 | Aug 30, 2023 ) --->
+> [BE] 602 Items | 229 Retextured GUI | 112 Blocks | 4 Entitys ( CHESTS ONLY )
+[+] Added 25 new blocks
+[+] Added UI item slot Texture
+[+] Fixed incorrect dates in changelog
+[+] Changed date stuff to correct stuff
+
+<--- Devamped v0.2a06 ( v0.2-alpha-06 | Aug 23, 2023 ) --->
+> [BE] 602 Items | 227 Retextured GUI | 87 Blocks | 4 Entitys ( CHESTS ONLY )
+[+] Added Chests
+[+] Added Doors
+[+] Added Planks
+[+] Changed woods palettes
+[-] Java edition port has been paused indefinitely
+
+<--- Devamped v0.2a05 ( v0.2-alpha-05 | Aug 16, 2023) --->
 > [BE] 602 Items | 227 Retextured GUI | 15 Blocks
 > [JE] 551 Items | 52 Retextured GUI | 13 Blocks
 [+] Updated GUI for bedrock and java
@@ -7,13 +58,13 @@
 [+] Ported Arcdustry-UI into Bedrock pack, only hud screen though!
 [+] Fixed ton of many things on bedrock
 
-<--- Devamped v0.2a04 ( v0.2-alpha-04 | July 8, 2023) --->
+<--- Devamped v0.2a04 ( v0.2-alpha-04 | Aug 8, 2023) --->
 > [BE] 584 Items | 227 Retextured GUI | 6 Blocks
 > [JE] 551 Items | 36 Retextured GUI | 5 Blocks
 [+] Added retextured and modified UIs to Bedrock edition
 [+] Texture changes in Java edition
 
-<--- Devamped v0.2a03 ( v0.2-alpha-03 | July 3, 2023) --->
+<--- Devamped v0.2a03 ( v0.2-alpha-03 | Aug 3, 2023) --->
 > [BE] 584 Items | 123 Retextured GUI | 6 Blocks
 > [JE] 551 Items | 36 Retextured GUI | 5 Blocks
 [+] Added few missing items
