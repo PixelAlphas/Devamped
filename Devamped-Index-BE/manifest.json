@@ -1,9 +1,9 @@
 { "format_version": 2,
   "header": {
-    "name": "Devamped v0.3a04 [ Oct 19, 2023 | v0.3-alpha-04 ]",
+    "name": "Devamped v0.3a05 [ Oct 22, 2023 | v0.3-alpha-05 ]",
     "description": "A Vanilla retexture from Arcdustry (Harlow)\nhttps://pixelalphas.github.io",
     "uuid": "9858fffd-f5ef-4bdd-949f-b87d73793382",
-    "version": [ 0, 3, 4 ],
+    "version": [ 0, 3, 5 ],
     "min_engine_version": [ 1, 20, 0 ]
   },
   "modules": [
