@@ -99,22 +99,22 @@
     "color": [ 0.6156, 0.9019, 0.3058 ],
     "controls": [
       { "shadow01@progress_xp_text_label_template": {
-          "color": [ 0, 0.3054, 0.2505 ],
+          "color": [ 0, 0.2054, 0.1505 ],
           "offset": [ -1, 0 ],
           "layer": -2
       }},
       { "shadow02@progress_xp_text_label_template": {
-          "color": [ 0, 0.3054, 0.2505 ],
+          "color": [ 0, 0.2054, 0.1505 ],
           "offset": [ 1, 0 ],
           "layer": -2
       }},
       { "shadow03@progress_xp_text_label_template": {
-          "color": [ 0, 0.3054, 0.2505 ],
+          "color": [ 0, 0.2054, 0.1505 ],
           "offset": [ 0, -1 ],
           "layer": -2
       }},
       { "shadow04@progress_xp_text_label_template": {
-          "color": [ 0, 0.3054, 0.2505 ],
+          "color": [ 0, 0.2054, 0.1505 ],
           "offset": [ 0, 1 ],
           "layer": -2
       }}
