@@ -1,15 +1,24 @@
 { "format_version": 2,
   "header": {
-    "name": "Devamped v0.6a12",
+    "name": "Devamped - v0.7v01",
     "description": "A Vanilla retexture from Arxance (Harlow)\nhttps://pixelalphas.github.io",
     "uuid": "9858fffd-f5ef-4bdd-949f-b87d73793382",
-    "version": [ 0, 6, 12 ],
+    "version": [ 0, 7, 0 ],
     "min_engine_version": [ 1, 20, 0 ]
   },
   "modules": [
     { "type": "resources",
       "uuid": "21e13f67-12e1-4772-afef-7997d2b3eb40",
       "version": [ 1, 0, 0 ]
+  }],
+  "subpacks": [
+    { "folder_name": "default",
+      "name": "Default - Only texture",
+      "memory_tier": 0
+    },
+    { "folder_name": "modified_ui",
+      "name": "Modified UI - Java Hotbar Experience",
+      "memory_tier": 0
   }],
   "metadata": { "authors": [ "Arcdustry/Harlow" ]
 }}

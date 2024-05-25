@@ -1,5 +1,7 @@
 {
   //////// Text colors ////////
+  "$cuigv:PrimaryColor": [ 0.5803, 0.9725, 0.2078 ], // Collapse-UI Accents
+  
   "$generic_button_text_color": [ 1.0, 1.0, 1.0 ], // for those times you find a button that's kind of used but shouldn't...
 
   "$light_button_default_text_color": [ 1, 1, 1 ],
