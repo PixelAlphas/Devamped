@@ -1,9 +1,9 @@
 { "format_version": 2,
   "header": {
-    "name": "Devamped - v0.7v03",
+    "name": "Devamped - v0.7v04",
     "description": "A Vanilla retexture from Arxance (Harlow)\nhttps://pixelalphas.github.io",
     "uuid": "9858fffd-f5ef-4bdd-949f-b87d73793382",
-    "version": [ 0, 7, 3 ],
+    "version": [ 0, 7, 4 ],
     "min_engine_version": [ 1, 20, 0 ]
   },
   "modules": [

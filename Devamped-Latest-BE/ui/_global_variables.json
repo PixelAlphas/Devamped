@@ -1,4 +1,5 @@
 {
+  "$cuigv:PrimaryColor": [ 0.5803, 0.9725, 0.2078 ],
   "$light_button_default_text_color": [ 0.85, 0.85, 0.85 ],
   "$light_button_hover_text_color": [ 0.85, 0.85, 0.85 ],
   "$light_button_pressed_text_color": [ 0.85, 0.85, 0.85 ],
