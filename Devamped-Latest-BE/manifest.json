@@ -1,9 +1,9 @@
 { "format_version": 2,
   "header": {
-    "name": "Devamped - v0.7v05",
+    "name": "Devamped - v0.7v06",
     "description": "A Vanilla retexture from Arxance (Harlow)\nhttps://pixelalphas.github.io",
     "uuid": "9858fffd-f5ef-4bdd-949f-b87d73793382",
-    "version": [ 0, 7, 5 ],
+    "version": [ 0, 7, 6 ],
     "min_engine_version": [ 1, 20, 0 ]
   },
   "modules": [
@@ -18,6 +18,14 @@
     },
     { "folder_name": "modified_ui",
       "name": "Modified UI - Java Hotbar Experience",
+      "memory_tier": 0
+    },
+    { "folder_name": "pvp",
+      "name": "PVP - Shortened Swords and Timing Bow/Crossbow",
+      "memory_tier": 0
+   },
+    { "folder_name": "pvp_modified_ui",
+      "name": "PVP + Modified UI - Shortened Swords & Java Hotbat Experience",
       "memory_tier": 0
   }],
   "metadata": { "authors": [ "Arcdustry/Harlow" ]
