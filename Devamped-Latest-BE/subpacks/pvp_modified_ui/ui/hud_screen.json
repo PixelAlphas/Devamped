@@ -80,6 +80,19 @@
                     "binding_name_override": "#visible"
                 }]
             }},
+            { "horse_jump_rend@horse_jump_renderer": {
+                "size": [ "100%", 5 ],
+                "layer": 7,
+                "controls": [
+                  { "dash_rend@dash_renderer": {
+                      "size": [ "100%", 5 ],
+                      "layer": 7
+                      
+                    }
+                  }
+                ]
+              }
+            },
             { "progress_text_label@progress_text_label": {
                 "offset": [ 0, 3 ],
                 "layer": 7
