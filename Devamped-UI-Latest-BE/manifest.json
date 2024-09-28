@@ -1,23 +1,47 @@
 { "format_version": 2,
   "header": {
-    "name": "Devamped §b(UI Only) - v0.7v05",
-    "description": "Devamped but UI textures only, by Arxance (Harlow)\nhttps://pixelalphas.github.io",
-    "uuid": "b5247bf6-1c3d-4aea-9326-8c8afd113b0d",
-    "version": [ 0, 7, 5 ],
+    "name": "Devamped - v0.7v08",
+    "description": "A Vanilla retexture from Arxance (Harlow)\nhttps://pixelalphas.github.io",
+    "uuid": "9858fffd-f5ef-4bdd-949f-b87d73793382",
+    "version": [ 0, 7, 8 ],
     "min_engine_version": [ 1, 20, 0 ]
   },
   "modules": [
     { "type": "resources",
-      "uuid": "9937ad58-41d0-4f25-87e4-f781303714ea",
+      "uuid": "21e13f67-12e1-4772-afef-7997d2b3eb40",
       "version": [ 1, 0, 0 ]
+  }],
+  "settings": [
+		{	"type": "label",
+			"text": "Select which preset you want for the pack."
+		},
+		{	"type": "label",
+			"text": "> §eDefault§7 - §fOnly texture, Recommended for Gameplay UI compatibility sakes."
+		},
+		{	"type": "label",
+			"text": "> §eModified UI§7 - §fDefault with modified Gameplay UI, the original and intended way to use Devamped."
+		},
+		{	"type": "label",
+			"text": "> §ePVP§7 - §fShortened Swords and Timing Bow/Crossbow."
+		},
+		{ "type": "label",
+			"text": "> §ePVP & Modified UI§7 - §fModified Gameplay UI + Shortened Swords and Timing Bow/Crossbow."
   }],
   "subpacks": [
     { "folder_name": "default",
-      "name": "Default - Only texture",
+      "name": "Default",
       "memory_tier": 0
     },
     { "folder_name": "modified_ui",
-      "name": "Modified UI - Java Hotbar Experience",
+      "name": "Modified UI",
+      "memory_tier": 0
+    },
+    { "folder_name": "pvp",
+      "name": "PVP",
+      "memory_tier": 0
+   },
+    { "folder_name": "pvp_modified_ui",
+      "name": "PVP + Modified UI",
       "memory_tier": 0
   }],
   "metadata": { "authors": [ "Arcdustry/Harlow" ]
