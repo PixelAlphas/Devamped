@@ -1,10 +1,10 @@
 { "format_version": 2,
   "header": {
-    "name": "Devamped - v0.7v10",
+    "name": "Devamped - v0.7v11",
     "description": "A Vanilla retexture by Arxance (Harlow)\nhttps://pixelalphas.github.io",
     "uuid": "9858fffd-f5ef-4bdd-949f-b87d73793382",
-    "version": [ 0, 7, 11 ],
-    "min_engine_version": [ 1, 20, 0 ]
+    "version": [ 0, 7, 12 ],
+    "min_engine_version": [ 1, 21, 0 ]
   },
   "modules": [
     { "type": "resources",
@@ -43,6 +43,7 @@
     { "folder_name": "modified_ui",
       "name": "Modified UI",
       "memory_tier": 0
-  }],
+    }
+  ],
   "metadata": { "authors": [ "Arxance/Harlow" ]
 }}
