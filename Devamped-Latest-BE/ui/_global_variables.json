@@ -1,5 +1,9 @@
 {
+  "$cuigv:ConfigName": "Devamped",
   "$cuigv:PrimaryColor": [ 0.5803, 0.9725, 0.2078 ],
+  "$cuigv:SecondaryColor": [ 0.0235, 0.0941, 0.0392 ],
+  "$cuigv:TertiaryColor": [ 0.0862, 0.3647, 0.1490 ],
+  "$cuigv:FontPrimaryColor": [ 0.85, 0.85, 0.85 ],
   "$light_button_default_text_color": [ 0.85, 0.85, 0.85 ],
   "$light_button_hover_text_color": [ 0.85, 0.85, 0.85 ],
   "$light_button_pressed_text_color": [ 0.85, 0.85, 0.85 ],
