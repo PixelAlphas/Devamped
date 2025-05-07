@@ -95,7 +95,11 @@
     "controls": [
       { "button@hud.hotbar_elipses_button": {} }
   ]},
+  "hotbar_elipses_button": {
+    "prevent_touch_input": true
+  },
   "borderless_button@common.button": {
+    "prevent_touch_input": true,
     "controls": [
       { "elipses@elipses_image_rewrite": {}}
   ]},
