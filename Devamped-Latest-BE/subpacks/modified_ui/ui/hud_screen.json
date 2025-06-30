@@ -136,26 +136,42 @@
                     ]}
                 }],
                 "bindings": [
-                  { "binding_name": "#show_survival_ui",
+                  { "binding_name": "#hotbar_with_xp_bar",
                     "binding_name_override": "#visible"
                 }]
             }},
             { "horse_jump_rend@horse_jump_renderer": {
                 "size": [ "100%", 5 ],
                 "layer": 7,
-                "controls": [
-                  { "dash_rend@dash_renderer": {
-                      "size": [ "100%", 5 ],
-                      "layer": 7
-                      
-                }}]
+                "replaced_while_inactive": true
+            }},
+            { "dash_rend@dash_renderer": {
+                "size": [ "100%", 5 ],
+                "layer": 7,
+                "replaced_while_inactive": true
+            }},
+            { "locator_bar@locator_bar": {
+                "size": [ "100%", 5 ],
+                "anchor_from": "bottom_middle",
+                "anchor_to": "bottom_middle",
+                "layer": 10,
+                "bindings": [
+                  { "binding_name": "#hotbar_with_locator_bar",
+                    "binding_name_override": "#visible"
+                }]
             }},
             { "progress_text_label@progress_text_label": {
                 "offset": [ 0, 3 ],
                 "layer": 7
           }}]
       }},
-      { "hotbar@hotbar_chooser": { "offset": [ 4, 15.5 ]}},
+      { "hotbar@hotbar_chooser": { 
+          "offset": [ 4, 15.5 ],
+          "bindings": [
+            { "binding_name": "(not #is_spectator_mode)",
+              "binding_name_override": "#visible"
+          }]
+      }},
       { "item_text_factory": {
           "size": [ 100, 10 ],
           "type": "factory",
