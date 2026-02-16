@@ -13,3 +13,6 @@ Contribution are welcome.
 - The texture pack is NOT finished.
 - Update might be slow sometimes due to personal life stuff.
 - GPL-3.0 licensed.
+
+# Legacy Devamped
+Check out in the `downloadable` folder in the repo and you should see the `legacy` packs.
