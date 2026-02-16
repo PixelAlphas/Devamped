@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 34,
+    "description": "DEVAMPED (Ported version) for Java Edition by Arxance (Harlow)\nhttps://pixelalphas.github.io",
+    "supported_formats": {
+      "min_inclusive": 30,
+      "max_inclusive": 99
+    }
+  }
+}
