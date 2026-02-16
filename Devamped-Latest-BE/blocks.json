@@ -1,0 +1,42 @@
+{
+  "format_version": "1.21.40",
+  "dirt": {
+    "isotropic": false,
+    "textures": "dirt"
+  },
+  "dirt_with_roots": {
+    "isotropic": false,
+    "textures": "dirt_with_roots"
+  },
+  "sand": {
+    "isotropic": false,
+    "textures": "sand"
+  },
+  "torch": {
+    "carried_textures": "torch_item",
+    "textures": "torch_on"
+  },
+  "lever": {
+    "carried_textures": "lever_item",
+    "textures": {
+      "down": "lever",
+      "east": "lever_particle",
+      "north": "lever",
+      "south": "lever",
+      "up": "lever",
+      "west": "lever"
+    }
+  },
+  "redstone_torch": {
+    "carried_textures": "redstone_torch_item",
+    "textures": "redstone_torch_on"
+  },
+  "soul_torch": {
+    "carried_textures": "soul_torch_item",
+    "textures": "soul_torch"
+  },
+  "ladder" : {
+    "carried_textures" : "ladder_item",
+    "textures" : "ladder"
+  }
+}
